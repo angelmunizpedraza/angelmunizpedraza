@@ -50,3 +50,4 @@ All nine install with `pip`. Three of them — geo-check, seo-audit and render-g
 ### Open to
 
 Technical SEO / GEO roles, remote or on-site in Seville. Also happy to receive issues and PRs on any of the tools above — feedback from a comment on LinkedIn is what produced geo-check v0.2, and that is the best kind.
+
