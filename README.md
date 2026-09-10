@@ -16,7 +16,7 @@ Ranking and being cited are two different games. Site-level audits tell you whet
 
 Nine of them, all Python, MIT, deterministic (no LLM calls, no API keys where avoidable), with tests and CI in green. This is the loop I run on real client sites.
 
-All nine install with `pip`. Three of them — geo-check, seo-audit and render-gap — also ship as **GitHub Actions**, so a team can fail its own build the day a deploy blocks a citation bot, breaks indexation or hides the copy behind JavaScript:
+All nine install with `pip`. Three of them — geo-check, seo-audit and render-gap — also ship as **GitHub Actions**, so a team can fail its own build the day a deploy blocks a citation bot or hides the copy behind JavaScript:
 
 ```yaml
 - uses: angelmunizpedraza/geo-check@v1
