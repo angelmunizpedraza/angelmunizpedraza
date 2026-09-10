@@ -19,7 +19,7 @@ Nine of them, all Python, MIT, deterministic (no LLM calls, no API keys where av
 Two of them — geo-check and render-gap — also ship as **GitHub Actions**, so a team can fail its own build the day a deploy blocks a citation bot or hides the copy behind JavaScript:
 
 ```yaml
-- uses: angelmunizpedraza/geo-check@main
+- uses: angelmunizpedraza/geo-check@v1
   with: { url: https://example.com, fail-if-blocked: "true" }
 ```
 
