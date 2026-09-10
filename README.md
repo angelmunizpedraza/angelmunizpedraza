@@ -14,7 +14,7 @@
 
 Ranking and being cited are two different games. Site-level audits tell you whether the AI crawlers can get in; nothing told me whether a given page gave them anything worth quoting once they were inside — so I wrote the tools.
 
-Seven of them, all Python, MIT, deterministic (no LLM calls, no API keys where avoidable), with tests and CI in green. This is the loop I run on real client sites.
+Eight of them, all Python, MIT, deterministic (no LLM calls, no API keys where avoidable), with tests and CI in green. This is the loop I run on real client sites.
 
 ### The GEO loop
 
@@ -25,8 +25,9 @@ Seven of them, all Python, MIT, deterministic (no LLM calls, no API keys where a
 | 3. Is this page quotable? | **[citeable](https://github.com/angelmunizpedraza/citeable)** | Scores one page 0-100 on 10 citability signals and returns an ordered list of which paragraph to rewrite. CI-gateable. |
 | 4. Where do I rank but never get cited? | **[serp-to-ai-diff](https://github.com/angelmunizpedraza/serp-to-ai-diff)** | Compares Google's top 10 with what ChatGPT and Perplexity actually cite, per keyword. That gap is the GEO backlog. |
 | 5. Am I being cited at all? | **[ai-visibility-tracker](https://github.com/angelmunizpedraza/ai-visibility-tracker)** | Brand mentions and citations inside AI answers, share of voice vs competitors, SQLite history, plus server-log analysis of real bot hits. |
-| 6. Is the classic SEO sound? | **[seo-audit](https://github.com/angelmunizpedraza/seo-audit)** | Crawls a site and returns indexing, content, performance and structured-data issues ranked by severity. |
-| 7. Did it move traffic? | **[ga4-report](https://github.com/angelmunizpedraza/ga4-report)** | Organic traffic from the GA4 API with period-over-period comparison and landing-page alerts. Markdown, CSV or n8n webhook. |
+| 6. Is my internal authority reaching the right pages? | **[linkjuice](https://github.com/angelmunizpedraza/linkjuice)** | Builds the internal link graph, finds orphans, click depth and internal PageRank, and returns concrete "link from *this* page to *that* page" recommendations. Counts body links only — nav and footer links are not votes. |
+| 7. Is the classic SEO sound? | **[seo-audit](https://github.com/angelmunizpedraza/seo-audit)** | Crawls a site and returns indexing, content, performance and structured-data issues ranked by severity. |
+| 8. Did it move traffic? | **[ga4-report](https://github.com/angelmunizpedraza/ga4-report)** | Organic traffic from the GA4 API with period-over-period comparison and landing-page alerts. Markdown, CSV or n8n webhook. |
 
 ### What I do with them
 
