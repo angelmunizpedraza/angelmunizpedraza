@@ -14,9 +14,9 @@
 
 Ranking and being cited are two different games. Site-level audits tell you whether the AI crawlers can get in; nothing told me whether a given page gave them anything worth quoting once they were inside — so I wrote the tools.
 
-Ten of them, all Python, MIT, with tests and CI in green. Nine are deterministic (no LLM calls, no API keys where avoidable); the tenth, **answerable**, does call a model, and then checks in plain code that every answer is backed by a quotation that really is on the page. This is the loop I run on real client sites.
+Ten of them, all Python, MIT, with tests and CI in green. Seven make no model calls at all; **ai-visibility-tracker** and **serp-to-ai-diff** query the AI engines' own APIs (with a `--dry-run` mode), and **answerable** calls a model and then checks in plain code that every answer is backed by a quotation that really is on the page. This is the loop I run on real client sites.
 
-All ten install with `pip`. Three of them — geo-check, seo-audit and render-gap — also ship as **GitHub Actions**, so a team can fail its own build the day a deploy blocks a citation bot or hides the copy behind JavaScript:
+All ten install with `pip` straight from GitHub. Four of them — geo-check, seo-audit, render-gap and answerable — also ship as **GitHub Actions**, so a team can fail its own build the day a deploy blocks a citation bot or hides the copy behind JavaScript:
 
 ```yaml
 - uses: angelmunizpedraza/geo-check@v1
@@ -40,11 +40,11 @@ All ten install with `pip`. Three of them — geo-check, seo-audit and render-ga
 
 ### What I do with them
 
-- **4,000 → 32,000 organic visits/month (8×)** and domain authority 12 → 33 on a group of online-education sites.
-- **+119 % organic traffic in 2 months** and 10 keywords in the top 3 for a veterinary hospital microsite in Los Angeles — English-language project, built end to end (React 19, Supabase, Cloudflare Workers).
-- **Relaunched the hospital's main site** in November 2026 on TanStack Start: LCP 5.8 s → 3.5 s, page weight 1.6 MB → 384 KB, CLS 0.128 → 0, 23 pages with zero axe accessibility errors.
-- **~400 leads/month** handled with no manual work: Meta lead forms → Google Sheets → Conversions API → automatic WhatsApp (Apps Script + WhatsApp Business API).
-- Launched **ChatGPT Ads** campaigns for two online-education brands (OpenAI Ads Manager, November 2026): bulk upload, bid and stop rules, and my own tracking on the WordPress side.
+- **4,000 → 32,000 organic visits/month (8×)** and domain authority 12 → 33 since I joined an online-education group (four WordPress/WooCommerce platforms).
+- **+119% organic traffic (June–August 2026)** and 10 keywords in the top 3 for a veterinary hospital microsite in Los Angeles — English-language project, built end to end (React 19, Supabase, Cloudflare Workers).
+- **Relaunched the hospital's main site** in November 2026 on TanStack Start, built with AI coding agents: on mobile, LCP 5.8 s → 3.5 s, page weight 1.6 MB → 384 KB, CLS 0.128 → 0; 23 pages with zero axe accessibility errors.
+- **~400 leads/month** with automatic first contact on WhatsApp: Meta lead forms → Google Sheets → Conversions API → automatic WhatsApp (Apps Script + WhatsApp Business API).
+- Launched a **ChatGPT Ads** test for two online-education brands (OpenAI Ads Manager, November 2026): bulk upload, bid and stop rules, and my own tracking on the WordPress side.
 
 ### Also built
 
@@ -58,4 +58,4 @@ All ten install with `pip`. Three of them — geo-check, seo-audit and render-ga
 
 ### Open to
 
-Technical SEO / GEO and Python automation roles, remote or on-site in Seville. Also happy to receive issues and PRs on any of the tools above — feedback from a comment on LinkedIn is what produced geo-check v0.2, and that is the best kind.
+Technical SEO / GEO and Python automation roles, remote or on-site in Sevilla. Also happy to receive issues and PRs on any of the tools above — feedback from a comment on LinkedIn is what produced geo-check v0.2, and that is the best kind.
