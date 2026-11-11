@@ -40,7 +40,7 @@ All ten install with `pip`. Three of them — geo-check, seo-audit and render-ga
 
 ### What I do with them
 
-- **4,000 → 28,000 organic visits/month (7×)** and domain authority 12 → 27 on a group of online-education sites.
+- **4,000 → 32,000 organic visits/month (8×)** and domain authority 12 → 33 on a group of online-education sites.
 - **+119 % organic traffic in 2 months** and 10 keywords in the top 3 for a veterinary hospital microsite in Los Angeles — English-language project, built end to end (React 19, Supabase, Cloudflare Workers).
 - **Relaunched the hospital's main site** in November 2026 on TanStack Start: LCP 5.8 s → 3.5 s, page weight 1.6 MB → 384 KB, CLS 0.128 → 0, 23 pages with zero axe accessibility errors.
 - **~400 leads/month** handled with no manual work: Meta lead forms → Google Sheets → Conversions API → automatic WhatsApp (Apps Script + WhatsApp Business API).
