@@ -48,6 +48,7 @@ All ten install with `pip` straight from GitHub. Four of them — geo-check, seo
 
 ### Also built
 
+- **[vigia](https://github.com/angelmunizpedraza/vigia)** — ten computer-vision systems for real problems (crowd density, falls, road damage, drowsy drivers, occupancy) running on a laptop NPU or CPU, with tested state-machine logic, faces and plates pixelated by default and no AGPL models. The fall detector catches 24 of 38 falls with 4 false alarms in 42 everyday clips on held-out subjects of a public dataset.
 - **[Lead_Scoring](https://github.com/angelmunizpedraza/Lead_Scoring)** — Master's thesis (KSchool): a calibrated CatBoost model that ranks which leads to call first using only pre-call data. ROC-AUC 0.767; calling the top 30 % captures 65 % of conversions.
 - **[escaparate](https://github.com/angelmunizpedraza/escaparate)** — installable web app that reworks clothing photos with AI for second-hand marketplaces (Cloudflare Workers + GitHub Pages).
 - Private, happy to walk through them in an interview: a client-prospecting platform (Python, Playwright, Google Places, AI agents under a spend cap), a computer-vision parking detector (D-FINE on ONNX Runtime, FastAPI) and a chess coach for Ray-Ban Meta glasses (Kotlin, FastAPI, OpenCV, Stockfish).
