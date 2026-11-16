@@ -40,11 +40,11 @@ All ten install with `pip` straight from GitHub. Four of them — geo-check, seo
 
 ### What I do with them
 
-- **4,000 → 32,000 organic visits/month (8×)** and domain authority 12 → 33 since I joined an online-education group (four WordPress/WooCommerce platforms).
+- **2,600 → 35,800 organic visits/month at peak (Semrush estimate)** and an Authority Score of 32 since I joined an online-education group (four WordPress/WooCommerce platforms).
 - **+119% organic traffic (June–August 2026)** and 10 keywords in the top 3 for a veterinary hospital microsite in Los Angeles — English-language project, built end to end (React 19, Supabase, Cloudflare Workers).
 - **Relaunched the hospital's main site** in November 2026 on TanStack Start, built with AI coding agents: on mobile, LCP 5.8 s → 3.5 s, page weight 1.6 MB → 384 KB, CLS 0.128 → 0; 23 pages with zero axe accessibility errors.
 - **~400 leads/month** with automatic first contact on WhatsApp: Meta lead forms → Google Sheets → Conversions API → automatic WhatsApp (Apps Script + WhatsApp Business API).
-- Launched a **ChatGPT Ads** test for two online-education brands (OpenAI Ads Manager, November 2026): bulk upload, bid and stop rules, and my own tracking on the WordPress side.
+- **Meta Ads, Black Friday 2026:** spotted creative fatigue in per-ad data and replaced the creatives; cost per lead fell from €42 to €6. Ran a **ChatGPT Ads** test for two brands with bid and stop rules set in advance and ended it at €37 per lead.
 
 ### Also built
 
