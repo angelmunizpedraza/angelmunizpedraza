@@ -55,7 +55,7 @@ All ten install with `pip` straight from GitHub. Four of them — geo-check, seo
 
 ### Stack
 
-`Python` · `pytest` · `GitHub Actions` · `Playwright` · `BeautifulSoup` · `SQLite` · `pandas` · `CatBoost` · `GA4 Data API` · `Search Console` · `TypeScript` · `React` · `TanStack Start` · `Cloudflare Workers` · `Supabase` · `WordPress / WooCommerce` · `Google Ads` · `Meta Ads` · `GTM` · `Apps Script` · `n8n` · `SQL`
+`Python` · `pytest` · `GitHub Actions` · `Playwright` · `BeautifulSoup` · `SQLite` · `pandas` · `CatBoost` · `GA4 Data API` · `Search Console` · `TypeScript` · `React` · `TanStack Start` · `Cloudflare Workers` · `Supabase` · `WordPress / WooCommerce` · `Google Ads` · `Meta Ads` · `GTM` · `Apps Script` · `SQL`
 
 ### Open to
 
